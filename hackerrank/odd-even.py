@@ -1,3 +1,12 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
 T = input()
 T = int(T)
 for i in range(T):
