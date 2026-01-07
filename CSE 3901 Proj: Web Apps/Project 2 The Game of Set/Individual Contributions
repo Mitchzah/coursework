@@ -1,0 +1,13 @@
+Card_handler.rb
+  1. Edited the get_user_choice method so that players can manually stop the game before the game naturally finishes
+  2. Added the any_set_on_board method which checks to make sure there is a possible set on the game board
+  3. Added the replace_cards method which replaces the cards that were taken from a matched set with cards from the deck
+
+set_game.rb
+  1. added a timer that tracks how long a player played the game for and outputs that time once the game has concluded or when a set has been found
+  2. Created the set method which confirms if a user input is a valid set
+  3. Added the unless any_set_on_board method which adds 3 cards to the game board if there is no set on the board
+  4. Added logic for the game to be playable 
+
+Additionl
+  Documentation of the listed contributions were added to the README file. Many small bug fixes/improvements were made to team members portions of the project.
