@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative '../lib/carmen_cli'
+
+# Delegate to the library CLI implementation so the executable stays thin.
+CarmenCLI::CLI.start(ARGV)
