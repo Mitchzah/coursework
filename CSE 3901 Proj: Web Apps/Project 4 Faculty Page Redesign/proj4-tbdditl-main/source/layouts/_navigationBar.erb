@@ -1,0 +1,23 @@
+<div class="bux-menu-wrapper">
+    <div class="bux-container bux-grid bux-container--menu">
+        <nav id="bux-main-menu" aria-label="Main" class="disclosure-nav disclosure-nav-orientation-horizontal">
+            <ul class="bux-menu">
+                <li class="bux-menu__item">
+                    <a href="/" class="bux-menu__link <%= 'bux-menu__link--active' if current_page.url == '/' %>">Home</a>
+                </li>
+                <li class="bux-menu__item">
+                    <a href="/my-lab/" class="bux-menu__link <%= 'bux-menu__link--active' if current_page.url.include?('my-lab') %>">My Labs</a>
+                </li>
+                <li class="bux-menu__item">
+                    <a href="/teaching/" class="bux-menu__link <%= 'bux-menu__link--active' if current_page.url.include?('teaching') %>">Teaching</a>
+                </li>
+                <li class="bux-menu__item">
+                    <a href="/publications/" class="bux-menu__link <%= 'bux-menu__link--active' if current_page.url.include?('publications') %>">Publications</a>
+                </li>
+                <li class="bux-menu__item">
+                    <a href="/news/" class="bux-menu__link <%= 'bux-menu__link--active' if current_page.url.include?('news') %>">News</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>

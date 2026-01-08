@@ -1,0 +1,37 @@
+/* Styles for social media icons not provided by default */
+.icon-google-scholar {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg');
+}
+
+.icon-github {
+  background-image: url('https://www.svgrepo.com/show/394174/github.svg');
+}
+
+.icon-bluesky {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg');
+}
+
+
+/* Styles to maintain consistency across different social link icons */
+.bux-social-links .icon,
+.bux-social-links--light .icon,
+.bux-social-links--white .icon,
+.bux-social-links--dark .icon {
+  display: inline-block;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.icon-github::before,
+.icon-google-scholar::before,
+.icon-blue-sky::before {
+  content: none;
+}
+
+#main-content {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}

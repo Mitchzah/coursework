@@ -1,0 +1,21 @@
+---
+title: News
+permalink: /news/
+---
+
+<h1>News</h1>
+<p>Welcome to the news page. Below are the latest announcements.</p>
+
+<% data.prof_news.each do |news_item| %>
+  <div class="bux-panel bux-mar-top-sp-16">
+    <h5 class="bux-panel__heading"><%= news_item.display_text %></h5>
+    <p>
+      <%= news_item.text %>
+    </p>
+    <% if news_item.links && news_item.links.any? %>
+      <% news_item.links.each do |link| %>
+        <a href="<%= link.url %>" class="bux-button" target="_blank" rel="noopener noreferrer"><%= link.label %></a>
+      <% end %>
+    <% end %>
+  </div>
+<% end %>

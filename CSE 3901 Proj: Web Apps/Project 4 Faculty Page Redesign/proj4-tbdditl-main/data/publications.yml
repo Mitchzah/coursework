@@ -1,0 +1,424 @@
+- year: 2025
+  pdf: https://arxiv.org/abs/2510.16234
+  code: https://github.com/skai-research/ScholarEval
+  data: https://github.com/skai-research/ScholarEval
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Hanane Nour Moussa*, Patrick Queiroz Da Silva*, Daniel Adu-Ampratwum, Alyson
+    East, Zitong Lu, Nikki Puccetti, Mingyi Xue, Huan Sun, Bodhisattwa Prasad Majumder,
+    Sachin Kumar, "ScholarEval: Research Idea Evaluation Grounded in Literature",
+    preprint. *=equal contribution.'
+- year: 2025
+  pdf: https://arxiv.org/abs/2509.11414
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Abraham Toluwase Owodunni, Sachin Kumar, "Continually Adding New Languages
+    to Multilingual Language Models", preprint, also presented at Multilingual
+    and Equitable Language Technologies (MELT) Workshop @COLM 2025.'
+- year: 2025
+  pdf: https://arxiv.org/abs/2505.03054
+  code: https://github.com/orevaahia/brutally_long_audio_bench
+  data: https://huggingface.co/datasets/oreva/blab_long_audio
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Orevaoghene Ahia, Martijn Bartelds, Kabir Ahuja, Hila Gonen, Valentin Hofmann,
+    Siddhant Arora, Shuyue Stella Li, Vishal Puttagunta, Mofetoluwa Adeyemi,
+    Charishma Buchireddy, Ben Walls, Noah Bennett, Shinji Watanabe, Noah A. Smith,
+    Yulia Tsvetkov, Sachin Kumar, "BLAB: Brutally Long Audio Bench", preprint.'
+- year: 2025
+  pdf: https://arxiv.org/abs/2504.07070
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Zhouhang Xie, Junda Wu, Yiran Shen, Yu Xia, Xintong Li, Aaron Chang, Ryan
+    Rossi, Sachin Kumar, Bodhisattwa Prasad Majumder, Jingbo Shang, Prithviraj
+    Ammanabrolu, Julian McAuley, "A Survey on Personalized and Pluralistic Preference
+    Alignment in Large Language Models", Conference on Language Modeling (COLM)
+    2025.'
+- year: 2025
+  pdf: https://arxiv.org/abs/2507.12720
+  code: https://github.com/owos/flexitokens
+  data: https://github.com/owos/flexitokens
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Abraham Toluwase Owodunni, Orevaoghene Ahia, Sachin Kumar, "FLEXITOKENS:
+    Flexible Tokenization for Evolving Language Models", preprint, also presented
+    at Tokenization Workshop @ICML 2025.'
+- year: 2025
+  pdf: null
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Carolina Hatanpää, Noah A. Smith, Sachin Kumar, "On Distributional Robustness
+    of In-Context Learning for Text Classification", Second Workshop on Test-Time
+    Adaptation: Putting Updates to the Test! @ICML 2025.'
+- year: 2025
+  pdf: https://arxiv.org/abs/2504.04635
+  code: https://github.com/patqdasilva/steering-off-course
+  data: https://github.com/patqdasilva/steering-off-course
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Patrick Queiroz Da Silva, Hari Sethuraman, Dheeraj Rajagopal, Hannaneh Hajishirzi,
+    Sachin Kumar,  "Steering off Course: Reliability Challenges in Steering Language
+    Models", 2025 Conference of the Association for Computational Linguistics
+    (ACL 2025). Oral (top 8%), Panel (top 0.8%).'
+- year: 2025
+  pdf: https://arxiv.org/abs/2502.13917
+  code: https://github.com/hamishivi/tess-2
+  data: https://github.com/hamishivi/tess-2
+  demo: https://t.co/9uRf1qx0RE
+  leaderboard: null
+  blog: null
+  text: 'Jaesung Tae*, Hamish Ivison*, Sachin Kumar, Arman Cohan, "TESS 2: A Large-Scale
+    Generalist Diffusion Language Model", 2025 Conference of the Association
+    for Computational Linguistics (ACL 2025) Oral (top 8%). *=equal contribution.'
+- year: 2025
+  pdf: https://arxiv.org/abs/2410.19133
+  code: https://github.com/allenai/hybrid-preferences
+  data: https://huggingface.co/datasets/allenai/multipref
+  demo: null
+  leaderboard: null
+  blog: https://allenai.org/blog/hybrid-preferences
+  text: 'Lester James V. Miranda, Yizhong Wang, Yanai Elazar, Sachin Kumar, Valentina
+    Pyatkin, Faeze Brahman, Noah A. Smith, Hannaneh Hajishirzi, Pradeep Dasigi,
+    "Hybrid Preferences: Learning to Route Instances for Human vs. AI Feedback",
+    2025 Conference of the Association for Computational Linguistics (ACL 2025).'
+- year: 2025
+  pdf: https://arxiv.org/pdf/2404.04237
+  code: https://osu-nlp-group.github.io/GroundCocoa/
+  data: https://osu-nlp-group.github.io/GroundCocoa/
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Harsh Kohli, Sachin Kumar, Huan Sun, "GroundCocoa: A Benchmark for Evaluating
+    Compositional & Conditional Reasoning in Language Models", 2025 Annual Conference
+    of the Nations of the Americas Chapter of the Association for Computational
+    Linguistics (NAACL 2025).'
+- year: 2025
+  pdf: https://arxiv.org/abs/2410.16027
+  code: https://github.com/allenai/compred
+  data: https://huggingface.co/datasets/allenai/compred
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Sachin Kumar*, Chan Young Park*, Yulia Tsvetkov, Noah A. Smith, Hannaneh
+    Hajishirzi, "ComPO: Community Preferences for Language Model Personalization",
+    2025 Annual Conference of the Nations of the Americas Chapter of the Association
+    for Computational Linguistics (NAACL 2025). *=equal contribution.'
+- year: 2025
+  pdf: https://arxiv.org/abs/2403.13787
+  code: https://github.com/allenai/reward-bench
+  data: https://github.com/allenai/reward-bench
+  demo: null
+  leaderboard: https://huggingface.co/spaces/allenai/reward-bench
+  blog: null
+  text: 'Nathan Lambert, Valentina Pyatkin, Jacob Morrison, LJ Miranda, Bill Yuchen
+    Lin, Khyathi Chandu, Nouha Dziri, Sachin Kumar, Tom Zick, Yejin Choi, Noah
+    A. Smith, Hannaneh Hajishirzi, "RewardBench: Evaluating Reward Models for
+    Language Modeling", 2025 Annual Conference of the Nations of the Americas
+    Chapter of the Association for Computational Linguistics (NAACL 2025) Findings.'
+- year: 2024
+  pdf: https://www.arxiv.org/abs/2407.12043
+  code: https://github.com/allenai/noncompliance
+  data: https://huggingface.co/datasets/allenai/coconot
+  demo: null
+  leaderboard: null
+  blog: https://blog.allenai.org/broadening-the-scope-of-noncompliance-when-and-how-ai-models-should-not-comply-with-user-requests-18b028c5b538
+  text: 'Faeze Brahman*, Sachin Kumar*, Vidhisha Balachandran, Pradeep Dasigi, Valentina
+    Pyatkin, Abhilasha Ravichander, Sarah Wiegreffe, Nouha Dziri, Khyathi Chandu,
+    Jack Hessel, Yulia Tsvetkov, Noah A. Smith, Yejin Choi, Hannaneh Hajishirzi,
+    "The Art of Saying No: Contextual Noncompliance in Language Models", Thirty-eighth
+    Conference on Neural Information Processing Systems (NeurIPS) 2024: Datasets
+    and Benchmarks.'
+- year: 2024
+  pdf: https://arxiv.org/abs/2407.08818
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Orevaoghene Ahia, Sachin Kumar, Hila Gonen, Valentin Hoffman, Tomasz Limisiewicz,
+    Yulia Tsvetkov, Noah A. Smith, "MAGNET: Improving the Multilingual Fairness
+    of Language Models with Adaptive Gradient-Based Tokenization", Thirty-eighth
+    Conference on Neural Information Processing Systems (NeurIPS) 2024.'
+- year: 2024
+  pdf: https://arxiv.org/abs/2406.18510
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Liwei Jiang, Kavel Rao, Seungju Han, Allyson Ettinger, Faeze Brahman, Sachin
+    Kumar, Niloofar Mireshghallah, Ximing Lu, Maarten Sap, Yejin Choi, Nouha
+    Dziri, "WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially)
+    Safer Language Models", Thirty-eighth Conference on Neural Information Processing
+    Systems (NeurIPS) 2024.'
+- year: 2024
+  pdf: https://arxiv.org/abs/2402.00159
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Luca Soldaini, Rodney Kinney, Akshita Bhagia, Dustin Schwenk, David Atkinson,
+    Russell Authur, Ben Bogin, Khyathi Chandu, Jennifer Dumas, Yanai Elazar,
+    Valentin Hofmann, Ananya Harsh Jha, Sachin Kumar, Li Lucy, Xinxi Lyu, Nathan
+    Lambert, Ian Magnusson, Jacob Morrison, Niklas Muennighoff, Aakanksha Naik,
+    Crystal Nam, Matthew E. Peters, Abhilasha Ravichander, Kyle Richardson,
+    Zejiang Shen, Emma Strubell, Nishant Subramani, Oyvind Tafjord, Pete Walsh,
+    Luke Zettlemoyer, Noah A. Smith, Hannaneh Hajishirzi, Iz Beltagy, Dirk Groeneveld,
+    Jesse Dodge, Kyle Lo, "Dolma: an Open Corpus of Three Trillion Tokens for
+    Language Model Pretraining Research", 2024 Conference of the Association
+    for Computational Linguistics (ACL 2024). Best Resource Paper Award.'
+- year: 2024
+  pdf: https://arxiv.org/pdf/2311.09741v1.pdf
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'YuHan Liu, Shangbin Feng, Xiaochuang Han, Vidhisha Balachandran, Chan Young
+    Park, Sachin Kumar, Yulia Tsvetkov, "What Constitutes a Faithful Summary?
+    Preserving Author Perspectives in News Summarization", 2024 Conference
+    of the North American Chapter of the Association for Computational Linguistics
+    (NAACL 2024).'
+- year: 2024
+  pdf: https://arxiv.org/abs/2305.14771
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Xiaochuang Han, Sachin Kumar, Yulia Tsvetkov, Marjan Ghazvininejad, "SSD-2:
+    Scaling and Inference-time Fusion of Diffusion Language Models", 2024 Conference
+    of the North American Chapter of the Association for Computational Linguistics
+    (NAACL 2024).'
+- year: 2024
+  pdf: https://arxiv.org/pdf/2311.07115.pdf
+  code: https://github.com/Sachin19/generative-classification
+  data: https://github.com/Sachin19/generative-classification
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Sachin Kumar, Chan Young Park, Yulia Tsvetkov, "Gen-Z: Generative Zero-Shot
+    Text Classification with Contextualized Label Descriptions", International
+    Conference on Learning Representations (ICLR 2024).'
+- year: 2023
+  pdf: https://arxiv.org/abs/2305.13707
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Orevaoghene Ahia, Sachin Kumar, Hila Gonen, Jungo Kasai, David R. Mortensen,
+    Noah A. Smith, Yulia Tsvetkov, "Do All Languages Cost the Same? Tokenization
+    in the Era of Commercial Language Models", 2023 Conference on Empirical
+    Methods in Natural Language Processing (EMNLP 2023).'
+- year: 2023
+  pdf: https://arxiv.org/abs/2306.00924
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Melanie Sclar, Sachin Kumar, Peter West, Alane Suhr, Yejin Choi and Yulia
+    Tsvetkov, “Minding Language Models’ Theory of Mind: A Plug-and-Play Multi-Character
+    Belief Tracker”, 2023 Conference of the Association for Computational Linguistics
+    (ACL 2023). Outstanding Paper Award'
+- year: 2023
+  pdf: https://arxiv.org/abs/2212.10020
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Tianxing He, Jingyu Zhang, Tianle Wang, Sachin Kumar, Kyunghyun Cho, James
+    Glass, Yulia Tsvetkov, "On the Blind Spots of Model-Based Evaluation Metrics
+    for Text Generation", 2023 Conference of the Association for Computational
+    Linguistics (ACL 2023).'
+- year: 2023
+  pdf: https://arxiv.org/abs/2210.17432
+  code: https://github.com/xhan77/ssd-lm
+  data: https://github.com/xhan77/ssd-lm
+  demo: https://colab.research.google.com/drive/1vNKqvzzJQp3k89QPuns5ibsq-VNC9wGN?usp=sharing
+  leaderboard: null
+  blog: null
+  text: 'Xiaochuang Han, Sachin Kumar, Yulia Tsvetkov, "SSD-LM: Semi-autoregressive
+    Simplex-based Diffusion Language Model for Text Generation and Modular Control",
+    2023 Conference of the Association for Computational Linguistics (ACL 2023).'
+- year: 2023
+  pdf: null
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Leon Derczynski, Hannah Rose Kirk, Vidhisha Balachandran, Sachin Kumar, Yulia
+    Tsvetkov, M. R. Leiser, Saif Mohammad, "Assessing Language Model Deployment
+    with Risk Cards", preprint.'
+- year: 2023
+  pdf: https://arxiv.org/abs/2210.07700
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Sachin Kumar*, Vidhisha Balachandran*, Lucille Njoo, Antonios Anastasopoulos,
+    Yulia Tsvetkov, "Language Generation Models Can Cause Harm: So What Can We
+    Do About It? An Actionable Survey", 2023 Conference of the European Chapter
+    of the Association for Computational Linguistics (EACL 2023).'
+- year: 2022
+  pdf: https://arxiv.org/abs/2210.13800
+  code: https://github.com/msclar/referee
+  data: https://github.com/msclar/referee
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Melanie Sclar, Peter West, Sachin Kumar, Yulia Tsvetkov and Yejin Choi, “Reference-Free
+    Sentence Summarization with Sharper Controllability through Symbolic Knowledge
+    Distillation”, 2022 Conference on Empirical Methods in Natural Language Processing
+    (EMNLP 2022).'
+- year: 2022
+  pdf: https://arxiv.org/abs/2205.12558
+  code: https://github.com/Sachin19/mucoco/tree/sampling2/
+  data: https://github.com/Sachin19/mucoco/tree/sampling2/
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Sachin Kumar, Biswajit Paria, Yulia Tsvetkov, “Gradient-based Constrained
+    Sampling from Language Models”, 2022 Conference on Empirical Methods in Natural
+    Language Processing (EMNLP 2022).'
+- year: 2021
+  pdf: https://arxiv.org/abs/2108.01850
+  code: https://github.com/Sachin19/mucoco
+  data: https://github.com/Sachin19/mucoco
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Sachin Kumar, Eric Malmi, Aliaksei Severyn, Yulia Tsvetkov. Controlled Text
+    Generation as Continuous Optimization with Multiple Constraints. Thirty-Fifth
+    Conference on Neural Information Processing Systems (NeurIPS) 2021.'
+- year: 2021
+  pdf: null
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Monisha Jegadeesan, Sachin Kumar, John Wieting, Yulia Tsvetkov. Improving
+    the Diversity of Unsupervised Paraphrasing with Embedding Outputs. Multilingual
+    Representation Learning Workshop at EMNLP 2021.'
+- year: 2021
+  pdf: https://arxiv.org/abs/2106.06797
+  code: https://github.com/Sachin19/seq2seq-con
+  data: https://github.com/Sachin19/seq2seq-con
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Sachin Kumar, Antonios Anastasopoulos, Shuly Wintner, Yulia Tsvetkov. Machine
+    Translation into Low-Resource Language Varieties. In the proceedings of 2021
+    Conference on Association of Computational Linguistics (ACL).'
+- year: 2021
+  pdf: https://arxiv.org/abs/2103.16789
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Lidia Kidane, Sachin Kumar, Yulia Tsvetkov. An Exploration of Data Augmentation
+    Techniques for Improving English to Tigrinya Translation. The 2nd AfricaNLP
+    Workshop at EACL 2021.'
+- year: 2020
+  pdf: https://www.aclweb.org/anthology/2020.ngt-1.7.pdf
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Zi-Yi Dou, Sachin Kumar, Yulia Tsvetkov, A Deep Reinforced Model for Zero-Shot
+    Cross-Lingual Summarization with Bilingual Semantic Similarity Rewards. The
+    4th Workshop on Neural Generation and Translation (ACL) 2020'
+- year: 2019
+  pdf: https://www.aclweb.org/anthology/D19-5621.pdf
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Gayatri Bhat, Sachin Kumar, Yulia Tsvetkov, A Margin-based Loss with Synthetic
+    Negative Samples for Continuous-output Machine Translation, The 3rd Workshop
+    on Neural Generation and Translation (EMNLP) 2019'
+- year: 2019
+  pdf: https://arxiv.org/abs/1909.00453
+  code: https://github.com/Sachin19/adversarial-classify
+  data: https://github.com/Sachin19/adversarial-classify
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Sachin Kumar, Shuly Wintner, Noah A. Smith, Yulia Tsvetkov, Topics to Avoid:
+    Demoting Latent Confounds in Text Classification, 2019 Conference on Empirical
+    Methods in Natural Language Processing (EMNLP) 2019'
+- year: 2018
+  pdf: https://openreview.net/forum?id=rJlDnoA5Y7
+  code: https://github.com/Sachin19/seq2seq-con
+  data: https://github.com/Sachin19/seq2seq-con
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Sachin Kumar & Yulia Tsvetkov, Von Mises-Fisher Loss for Training Sequence
+    to Sequence Models with Continuous Outputs, 7th International Conference on
+    Learning Representations (ICLR) 2019.'
+- year: 2018
+  pdf: https://dl.acm.org/citation.cfm?id=3269246
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Shreshtha Mundra*, Sachin Kumar*, Manjira Sinha, Sandya Mannarswamy, Mining
+    & Summarizing E-petitions for Enhanced Understanding of Public Opinion, In
+    Proceedings of the International Conference on Information and Knowledge Management
+    (CIKM) 2018.'
+- year: 2018
+  pdf: null
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Sachin Kumar, Yulia Tsvetkov, Machine Translation with Continuous Outputs,
+    ICML 2018 workshop on Theoretical Foundations and Applications of Deep Generative
+    Models.'
+- year: 2017
+  pdf: https://www.ijcai.org/proceedings/2017/0284.pdf
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Sachin Kumar, Soumen Chakrabarti, Shourya Roy. Earth Mover Distance Pooling
+    over Siamese LSTMs for Automatic Short Answer Grading. In Proceedings of
+    the 26th International Joint Conference on Artificial Intelligence (IJCAI)
+    2017.'
+- year: 2014
+  pdf: http://dx.doi.org/10.1145/2662117.2662134
+  code: null
+  data: null
+  demo: null
+  leaderboard: null
+  blog: null
+  text: 'Sachin Kumar, Vikas C. Raykar, and Priyanka Agrawal. Decisions under drift:
+    Adapting binary decision thresholds to drifts in test distribution. In Proceedings
+    of the 6th IBM Collaborative Academia Research Exchange Conference. ACM, New
+    York, NY, USA, Article 17, 4 pages. DOI=http://dx.doi.org/10.1145/2662117.2662134'

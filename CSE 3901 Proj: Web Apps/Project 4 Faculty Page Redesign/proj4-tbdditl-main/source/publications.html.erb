@@ -1,0 +1,39 @@
+---
+title: Publications
+permalink: /publications/
+---
+<h1>Publications</h1>
+
+<div class="bux-listicle bux-mar-top-sp-16">
+  <% data.publications.each_with_index do |pub, index| %>
+    <div class="bux-listicle__item">
+      <h2 class="bux-listicle__title">
+        <span class="bux-listicle__title-number"><%= index + 1 %></span>
+        <span class="bux-listicle__title-text"><%= pub.year %></span>
+      </h2>
+      <div class="bux-listicle__text">
+        <%= pub.text %>
+        <p>
+          <% if pub.pdf %>
+            <a class="bux-link" href="<%= pub.pdf %>" target="_blank" rel="noopener noreferrer">PDF</a>
+          <% end %>
+          <% if pub.code %>
+            <a class="bux-link" href="<%= pub.code %>" target="_blank" rel="noopener noreferrer">CODE</a>
+          <% end %>
+          <% if pub.data %>
+            <a class="bux-link" href="<%= pub.data %>" target="_blank" rel="noopener noreferrer">DATA</a>
+          <% end %>
+          <% if pub.demo %>
+            <a class="bux-link" href="<%= pub.demo %>" target="_blank" rel="noopener noreferrer">DEMO</a>
+          <% end %>
+          <% if pub.leaderboard %>
+            <a class="bux-link" href="<%= pub.leaderboard %>" target="_blank" rel="noopener noreferrer">LEADERBOARD</a>
+          <% end %>
+          <% if pub.blog %>
+            <a class="bux-link" href="<%= pub.blog %>" target="_blank" rel="noopener noreferrer">BLOG</a>
+          <% end %>
+        </p>
+      </div>
+    </div>
+  <% end %>
+</div>

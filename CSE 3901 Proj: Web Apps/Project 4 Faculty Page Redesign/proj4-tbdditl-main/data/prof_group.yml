@@ -1,0 +1,74 @@
+group:
+  - first_name: "Abraham"
+    last_name: "Owodunni"
+    role: "Ph.D. Student"
+    start_year: 2024
+    present: true
+    webpage: "https://owos.github.io/"
+    notes: ""
+    image: "https://lh3.googleusercontent.com/sitesv/AAzXCkeec6PiWFzWhe9D6B_QlmAv9SXcaTnmxoNyRbrlT3FwF36ArldJmkUoM5A6yJhha3DD_X-CvGp9bpqLK1S2SgH4M5zfcAqYQKponG3XCKm6WmBK48Pj_lDfMdN1jXBId6Z1mCS6U02otppA2Wm68VHWB57KmzuSK1ZsURBCpWuz5k_-X8y9lGWMWk0mVOhrc6kmge8jc8HN_icTEDSQ-Qt0niDXJw=w1280"
+
+  - first_name: "Hanane Nour"
+    last_name: "Moussa"
+    role: "Ph.D. Student"
+    start_year: 2024
+    present: true
+    webpage: "https://sites.google.com/view/hananenourmoussa/home"
+    notes: "Co-advised with Huan Sun"
+    image: "https://lh3.googleusercontent.com/sitesv/AAzXCkeRUip7nh5wCNuhw7RZo5DhtxnJzZCyAqnT8nvi_HaxGnarhImJQQeCwNoBp3_wYB4zAGO88ff2yej8_JjT60G8Gn1sMVKkVuEBWAOrt60tYOVsvu-Jmsz6m5gr1ihu8hOgXATiQPs9UGTa5Ar1UqFBwxDeCNjKS4dHEoRBie5aG8YgoTWjq_NxPJYKN26CMiNHxrOn90Qq90GppcJqZilMhrDkm7TJ=w1280"
+
+  - first_name: "Zishuo"
+    last_name: "Zheng"
+    role: "Ph.D. Student"
+    start_year: 2024
+    present: true
+    webpage: "https://scholar.google.com/citations?user=5qlNlOQAAAAJ&hl=zh-CN"
+    notes: ""
+    image: "https://lh3.googleusercontent.com/sitesv/AAzXCkdP5vjjYY0mZB6ZvNuueX8Sc4V3EGnA0U5O9rdbq4CL3V3o0F3cRln9d3Ya5xtSTcNlRllR-d1DK6VK6BCfJ-Z0VpJ6MA9Cyp7XGZ60pThvKod_iqG_EyO2RsS8CZa8MfxqOXeiBwTmdAQq0SDQ5URDMUZqVKrKrlPrB4nMJR_8G1ewPTcBWgpMz81s-D6OTkZHlHQSwxPtI7DiUbmnv2_TS86V974_=w1280"
+
+  - first_name: "Patrick Da"
+    last_name: "Silva"
+    role: "Ph.D. Student"
+    start_year: 2025
+    present: true
+    webpage: "https://www.linkedin.com/in/patrick-da-silva-871833225/"
+    notes: ""
+    image: "https://lh3.googleusercontent.com/sitesv/AAzXCkcfBkbWEwHfqmBleQs6Pjz3vJVIngTOfN1sy3is_XeTJZ-3asC1QEVVa-PAWoyUf7yCCq2ZZUjZziK5SBCDXPTNUAJYYNemey4R_h2G-N_artSI7wBxpSH8UxJfLIY7DYl27-Bua_C7vfs8tsvu-i9_EW4oelqn_TGUMbhSHQqns6zHT2jI9Au_Bg0QNVQgtxB70_LF-dO8y0kagn5Vb7QO2cv6Gw=w1280"
+
+  - first_name: "Aaron"
+    last_name: "Jencks"
+    role: "MS Student"
+    start_year: 2024
+    present: true
+    webpage: "https://www.linkedin.com/in/aaron-jencks-185bb924b/"
+    notes: ""
+    image: "https://lh3.googleusercontent.com/sitesv/AAzXCkekR9AdHJqmKGQfgjIgKtrmnUvHee6c5tN9XIUOWMhj13aDxWHmlIw7M2nfKZgT-JLTYGAumNc6kKkMZHDEpnqlPXHA-PFqrlrQ04sToB6B3TD1dNbIZWskM2qm2Zhq939Uh_sTpL98P9q9DkeJs_fM5f4sLqBOZ3mrwiH3oR1TPtfFNH09GFtBajZ3t0lRQNwM7xnI_FLdXQn3flfOtz1DwVFamMff=w1280"
+
+  - first_name: "Doeun"
+    last_name: "Lee"
+    role: "MS Student"
+    start_year: 2024
+    present: true
+    webpage: "https://www.linkedin.com/in/doeun-lee-1386bb204/"
+    notes: ""
+    image: "https://lh3.googleusercontent.com/sitesv/AAzXCkeS-gGhgrpbgRFl-qd6mk19Pi8704HbKdnAS0vSFnDMINPa9bzESO0SlLVqStLqIaQez1z5zRJ1sLXNstkYlxgCwBeS4FoFYfR7UR7Fg9NlugY3he5fNvkrsN0ceihpSJtn_YyntwypEtmSEKlTPd9sAvSbWLQEFAuMYyGLx24qUzAxmXSEvXz2IP8SPz33m-BWRGVKDC21oXaF5TmolLmohRsuopcN=w1280"
+
+  - first_name: "Jiwoo"
+    last_name: "Park"
+    role: "MS Student"
+    start_year: 2024
+    present: true
+    webpage: "https://www.linkedin.com/in/jiwoo-park-55605525b/"
+    notes: ""
+    image: "https://lh3.googleusercontent.com/sitesv/AAzXCkeEE1S2FVLGnlqWG0jQkUAcWOQ_RMS5kKshBaDBc7wnaJ3NkFRbsFDxvKx0FzRVvmDIOi2XSChqpG74NUyLlQXaPtKwrPx0ZYMn9qAE_l1eibOdtRKaqlCNf5HptWvYUYPg10VICkT4C0uLefs8sRxtur94Mmz8hs9YKbQ76CK1HuP7Ct8ofIp5bLHMIMiKiR1v9Z2P6rN7CBp2LUc8qw_BwPBb19to=w1280"
+
+alumni:
+  - first_name: "Nikhil Pavan"
+    last_name: "Kanaka"
+    role: "MS"
+    start_year: 2024
+    end_year: 2024
+    present: false
+    webpage: ""
+    notes: "Software Engineer @ StackGen"
+    image: "https://lh3.googleusercontent.com/sitesv/AAzXCkfF68l9dWzEqv2-c0_3aET-rkQm0aPWvyrbZQ7h_-CNZqlYZSfxSu1Jep4nB0Ge7oywjiJjHGOicMjE99dTPIVBpPFD6fHExzKPy42dUpvjkluxYbBK8hrlq-uMxllQwOKKXzIuhc54-Moa60Y5DOVCu_YAr-b8kMBoHY8U0GgQSZj-pmztuPnwzctqS_SP2rZuC0_iMYs2bjQSaLW0q5ufNE75c5PD=w1280"

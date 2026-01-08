@@ -1,0 +1,430 @@
+- date: "2025-10"
+  display_text: "October 2025"
+  text: "[October 2025] New preprint out on evaluating research ideas: ScholarEval."
+  links:
+    - { label: "ScholarEval", url: "https://arxiv.org/pdf/2510.16234" }
+
+- date: "2025-09"
+  display_text: "September 2025"
+  text: "[September 2025] New preprint out on continually adding new languages to multilingual LMs."
+  links:
+    - { label: "New preprint out", url: "https://arxiv.org/pdf/2509.11414" }
+
+- date: "2025-08"
+  display_text: "August 2025"
+  text: "[August 2025] I will be at COLM to co-organize MELT workshop."
+  links:
+    - { label: "MELT workshop", url: "https://melt-workshop.github.io/" }
+
+- date: "2025-08"
+  display_text: "August 2025"
+  text: "[August 2025] Steering Off Course wins SAC Highlights award at ACL 2025! 🎉"
+  links:
+    - { label: "Steering Off Course", url: "https://arxiv.org/abs/2504.04635" }
+
+- date: "2025-07"
+  display_text: "July 2025"
+  text: "[July 2025] Co-organizing Tokenization Workshop at ICML 2025! Also (co-)presenting BLAB at ML4Audio Workshop, Steering Off Course at Actionable Interp Workshop, and Flexitokens at TokShop."
+  links:
+    - { label: "Tokenization Workshop", url: "https://tokenization-workshop.github.io/" }
+
+- date: "2025-07"
+  display_text: "July 2025"
+  text: "[July 2025] New paper out on making tokenization more flexible to adaptation: FlexiTokens."
+  links:
+    - { label: "FlexiTokens", url: "https://arxiv.org/abs/2507.12720" }
+
+- date: "2025-07"
+  display_text: "July 2025"
+  text: "[July 2025] Personalization survey accepted at COLM 2025!"
+  links: []
+
+- date: "2025-07"
+  display_text: "July 2025"
+  text: "[July 2025] Three papers now accepted at ACL 2025 (Steering Off Course (Oral [top 8%], Panel [top 0.8%]), TESS 2 (Oral), HybridPref)!"
+  links:
+    - { label: "Steering Off Course", url: "https://arxiv.org/abs/2504.04635" }
+    - { label: "TESS 2", url: "https://arxiv.org/abs/2502.13917" }
+    - { label: "HybridPref", url: "https://arxiv.org/abs/2410.19133" }
+
+- date: "2025-05"
+  display_text: "May 2025"
+  text: "[May 2025] New paper out on benchmarking audio LMs: BLAB!"
+  links:
+    - { label: "BLAB", url: "https://arxiv.org/abs/2505.03054" }
+
+- date: "2025-04"
+  display_text: "April 2025"
+  text: "[April 2025] New survey paper on personalized preference learning."
+  links:
+    - { label: "personalized preference learning", url: "https://arxiv.org/abs/2504.07070" }
+
+- date: "2025-04"
+  display_text: "April 2025"
+  text: "[April 2025] New paper on brittleness of steering methods: Steering Off Course."
+  links:
+    - { label: "Steering Off Course", url: "https://arxiv.org/abs/2504.04635" }
+
+- date: "2025-03"
+  display_text: "March 2025"
+  text: "[March 2025] Invited talk at UPenn CLunch Seminar."
+  links:
+    - { label: "UPenn CLunch Seminar", url: "https://nlp.cis.upenn.edu/clunch.html" }
+
+- date: "2025-02"
+  display_text: "February 2025"
+  text: "[February 2025] New paper on diffusion LMs: TESS 2."
+  links:
+    - { label: "TESS 2", url: "https://arxiv.org/abs/2502.13917" }
+
+- date: "2025-01"
+  display_text: "January 2025"
+  text: "[January 2025] Three papers (ComPO, GroundCocoa, and RewardBench) now accepted at NAACL 2025 (see you in New Mexico)!"
+  links: []
+
+- date: "2024-11"
+  display_text: "November 2024"
+  text: "[November 2024] Will be in Miami to organize Customizable NLP @ EMNLP 2024! Proceedings now live here."
+  links:
+    - { label: "Customizable NLP @ EMNLP 2024", url: "https://customnlp4u-24.github.io/" }
+    - { label: "here", url: "https://aclanthology.org/2024.customnlp4u-1.0/" }
+
+- date: "2024-10"
+  display_text: "October 2024"
+  text: "[October 2024] New paper on personalization: ComPO."
+  links:
+    - { label: "ComPO", url: "https://arxiv.org/abs/2410.16027" }
+
+- date: "2024-10"
+  display_text: "October 2024"
+  text: "[October 2024] New paper on preference annotation: HybridPref."
+  links:
+    - { label: "HybridPref", url: "https://arxiv.org/abs/2410.19133" }
+
+- date: "2024-09"
+  display_text: "September 2024"
+  text: "[September 2024] MAGNET and WildTeaming now accepted at NeurIPS 2024!"
+  links:
+    - { label: "MAGNET", url: "https://arxiv.org/abs/2407.08818" }
+    - { label: "WildTeaming", url: "https://arxiv.org/abs/2406.18510" }
+
+- date: "2024-08"
+  display_text: "August 2024"
+  text: "[August 2024] Moved to Columbus and started at OSU!"
+  links: []
+
+- date: "2024-08"
+  display_text: "August 2024"
+  text: "[August 2024] Dolma won the best resource paper award at ACL 2024! 🎉"
+  links:
+    - { label: "Dolma", url: "https://arxiv.org/abs/2402.00159" }
+    - { label: "best resource paper award", url: "https://x.com/JesseDodge/status/1823648142081839130" }
+
+- date: "2024-07"
+  display_text: "July 2024"
+  text: "[July 2024] The website for the Customizable NLP workshop (to be held at EMNLP 2024) is up, including the CFP. Submit your papers!"
+  links:
+    - { label: "the Customizable NLP", url: "https://customnlp4u-24.github.io/" }
+
+- date: "2024-07"
+  display_text: "July 2024"
+  text: "[July 2024] New paper: Improving multilingual fairness of language models (MAGNET)."
+  links:
+    - { label: "Improving multilingual fairness of language models (MAGNET)", url: "https://arxiv.org/abs/2407.08818" }
+
+- date: "2024-07"
+  display_text: "July 2024"
+  text: "[July 2024] New paper on Contextual Noncompliance!"
+  links:
+    - { label: "Contextual Noncompliance", url: "https://blog.allenai.org/broadening-the-scope-of-noncompliance-when-and-how-ai-models-should-not-comply-with-user-requests-18b028c5b538" }
+
+- date: "2024-06"
+  display_text: "June 2024"
+  text: "[June 2024] New paper WildTeaming on arXiv!"
+  links:
+    - { label: "WildTeaming", url: "https://arxiv.org/abs/2406.18510" }
+
+- date: "2024-05"
+  display_text: "May 2024"
+  text: "[May 2024] Dolma is accepted at ACL 2024!"
+  links: []
+
+- date: "2024-05"
+  display_text: "May 2024"
+  text: "[May 2024] Presented Gen-Z at ICLR 2024 in Vienna."
+  links: []
+
+- date: "2024-04"
+  display_text: "April 2024"
+  text: "[April 2024] Invited talk on language model refusals at MilaNLP."
+  links: []
+
+- date: "2024-03"
+  display_text: "March 2024"
+  text: "[March 2024] Two papers accepted at NAACL 2024!"
+  links: []
+
+- date: "2024-03"
+  display_text: "March 2024"
+  text: "[March 2024] Reward-bench paper is on arXiv!"
+  links:
+    - { label: "Reward-bench", url: "https://arxiv.org/abs/2403.13787" }
+
+- date: "2024-03"
+  display_text: "March 2024"
+  text: "[March 2024] Gave a guest lecture on mitigating societal harms of LLMs at KAIST."
+  links: []
+
+- date: "2024-02"
+  display_text: "February 2024"
+  text: "[February 2024] Dolma is on arXiv!"
+  links:
+    - { label: "Dolma", url: "https://arxiv.org/abs/2402.00159" }
+
+- date: "2024-01"
+  display_text: "January 2024"
+  text: "[January 2024] Paper on Generative zero-shot classification accepted at ICLR 2024!"
+  links:
+    - { label: "Generative zero-shot classification", url: "https://openreview.net/pdf?id=rkplYfqUr0" }
+
+- date: "2023-12"
+  display_text: "December 2023"
+  text: "[December 2023] Giving an invited talk at the IndoML symposium on December 22nd, 2023. Come say hi!"
+  links:
+    - { label: "IndoML symposium", url: "https://indoml.in/schedule/" }
+
+- date: "2023-11"
+  display_text: "November 2023"
+  text: "[November 2023] I am co-teaching a tutorial on mitigating societal harms in LLMs at EMNLP 2023. See you in Singapore!"
+  links:
+    - { label: "mitigating societal harms in LLMs", url: "https://llm-harm-mitigation.github.io/tutorial/" }
+
+- date: "2023-11"
+  display_text: "November 2023"
+  text: "[November 2023] New preprint out on zero-shot text classification."
+  links:
+    - { label: "zero-shot text classification", url: "https://arxiv.org/abs/2311.07115" }
+
+- date: "2023-11"
+  display_text: "November 2023"
+  text: "[November 2023] New preprint out on preserving author perspectives in news summarization."
+  links:
+    - { label: "preserving author perspectives in news summarization", url: "https://arxiv.org/pdf/2311.09741.pdf" }
+
+- date: "2023-10"
+  display_text: "October 2023"
+  text: "[October 2023] I'm co-organizing a workshop on Customizable NLP at EMNLP 2024! Details forthcoming."
+  links: []
+
+- date: "2023-10"
+  display_text: "October 2023"
+  text: "[October 2023] A paper accepted at EMNLP 2023! An updated camera ready soon."
+  links:
+    - { label: "A paper", url: "https://arxiv.org/abs/2305.13707" }
+
+- date: "2023-08"
+  display_text: "August 2023"
+  text: "[August 2023] Successfully defended my thesis 🥳."
+  links: []
+
+- date: "2023-08"
+  display_text: "August 2023"
+  text: "[August 2023] Started at AI2 as a Young Investigator."
+  links: []
+
+- date: "2023-07"
+  display_text: "July 2023"
+  text: "[July 2023] Our paper Minding Language Models' (Lack of) Theory of Mind: A Plug-and-Play Multi-Character Belief Tracker got outstanding paper awards at ACL 2023 and ICML 2023 Theory of Mind Workshop 🎉."
+  links:
+    - { label: "Minding Language Models' (Lack of) Theory of Mind: A Plug-and-Play Multi-Character Belief Tracker", url: "https://arxiv.org/abs/2306.00924" }
+
+- date: "2023-07"
+  display_text: "July 2023"
+  text: "[July 2023] I will join Ohio State University as an Assistant Professor in the CS Department in Fall 2024!"
+  links: []
+
+- date: "2023-07"
+  display_text: "July 2023"
+  text: "[July 2023] I will spend a year as a postdoc at Allen Institute for AI working with Hanna Hajishirzi and Noah Smith!"
+  links: []
+
+- date: "2023-05"
+  display_text: "May 2023"
+  text: "[May 2023] Two new preprints on arXiv: Do All Languages Cost the Same? Tokenization in the Era of Commercial Language Models and SSD-2: Scaling and Inference-time Fusion of Diffusion Language Models."
+  links:
+    - { label: "Do All Languages Cost the Same? Tokenization in the Era of Commercial Language Models", url: "https://arxiv.org/abs/2305.13707" }
+    - { label: "SSD-2: Scaling and Inference-time Fusion of Diffusion Language Models", url: "https://arxiv.org/abs/2305.14771" }
+
+- date: "2023-05"
+  display_text: "May 2023"
+  text: "[May 2023] 3 papers accepted at ACL 2023! Camera-ready versions out soon."
+  links: []
+
+- date: "2023-05"
+  display_text: "May 2023"
+  text: "[May 2023] Vidhisha presented our survey paper at EACL in Croatia!"
+  links:
+    - { label: "survey paper", url: "https://arxiv.org/abs/2210.07700" }
+
+- date: "2023-04"
+  display_text: "April 2023"
+  text: "[April 2023] New preprint out on arXiv: Assessing Language Model Deployment with Risk Cards."
+  links:
+    - { label: "Assessing Language Model Deployment with Risk Cards", url: "https://arxiv.org/abs/2303.18190" }
+
+- date: "2023-01"
+  display_text: "January 2023"
+  text: "[January 2023] Our survey paper got accepted at EACL 2023! The camera-ready version out soon."
+  links:
+    - { label: "survey paper", url: "https://arxiv.org/abs/2210.07700" }
+
+- date: "2022-12"
+  display_text: "December 2022"
+  text: "[December 2022] New preprint out of arXiv: On the Blind Spots of Model-Based Evaluation Metrics for Text Generation"
+  links:
+    - { label: "On the Blind Spots of Model-Based Evaluation Metrics for Text Generation", url: "https://arxiv.org/abs/2212.10020" }
+
+- date: "2022-10"
+  display_text: "October 2022"
+  text: "[October 2022] New preprint out on arXiv: SSD-LM: Semi-autoregressive Simplex-based Diffusion Language Model for Text Generation and Modular Control."
+  links:
+    - { label: "SSD-LM: Semi-autoregressive Simplex-based Diffusion Language Model for Text Generation and Modular Contro", url: "https://arxiv.org/abs/2210.17432" }
+
+- date: "2022-10"
+  display_text: "October 2022"
+  text: "[October 2022] Passed my thesis proposal. I am now a Ph.D. candidate!"
+  links: []
+
+- date: "2022-10"
+  display_text: "October 2022"
+  text: "[October 2022] Gave an invited talk about my latest research at Google."
+  links: []
+
+- date: "2022-10"
+  display_text: "October 2022"
+  text: "[October 2022] New preprint out on arXiv: \"Language Generation Models Can Cause Harm: So What Can We Do About It? An Actionable Survey\"."
+  links:
+    - { label: "Language Generation Models Can Cause Harm: So What Can We Do About It? An Actionable Survey", url: "https://arxiv.org/abs/2210.07700" }
+
+- date: "2022-10"
+  display_text: "October 2022"
+  text: "[October 2022] Two papers accepted at EMNLP 2022! arXiv versions out soon."
+  links: []
+
+- date: "2022-06"
+  display_text: "June 2022"
+  text: "[June 2022] My research is now funded by Google PhD Fellowship!"
+  links:
+    - { label: "Google PhD Fellowship", url: "https://research.google/outreach/phd-fellowship/recipients/" }
+
+- date: "2022-05"
+  display_text: "May 2022"
+  text: "[May 2022] New preprint out on arXiv: \"Constrained Sampling from Language Models via Langevin Dynamics in Embedding Spaces\"."
+  links: []
+
+- date: "2022-04"
+  display_text: "April 2022"
+  text: "[April 2022] Gave a tutorial at TheWebConf 2022 on \"Mitigating Societal Harms of Large Language Models: A Case Study in Language Generation\""
+  links:
+    - { label: "tutorial", url: "https://www.youtube.com/watch?v=0OVpfWwrGME&list=PL_4c34HZDoN6P4liXPoFjQiIoZEQLsxD3&index=14" }
+    - { label: "TheWebConf 2022", url: "https://www2022.thewebconf.org/" }
+
+- date: "2021-09"
+  display_text: "September 2021"
+  text: "[September 2021] Paper on \"Controlled Text Generation as Continuous Optimization with Multiple Constraints\" accepted at NeurIPS 2021!"
+  links:
+    - { label: "Paper", url: "https://arxiv.org/abs/2108.01850" }
+
+- date: "2021-09"
+  display_text: "September 2021"
+  text: "[September 2021] Short paper on \"Improving the Diversity of Unsupervised Paraphrasing with Embedding Outputs\" accepted at MRL@EMNLP 2021!"
+  links: []
+
+- date: "2021-05"
+  display_text: "May 2021"
+  text: "[May 2021] Short paper on \"Machine Translation into Low Resource Language Varieties\" accepted at ACL 2021! arXiv preprint coming soon."
+  links: []
+
+- date: "2021-03"
+  display_text: "March 2021"
+  text: "[March 2021] Paper on \"An Exploration of Data Augmentation Techniques for Improving English to Tigrinya Translation\" accepted at AfricaNLP@EACL 2021. Preprint coming soon."
+  links: []
+
+- date: "2020-11"
+  display_text: "November 2020"
+  text: "[November 2020] Paper on \"End-to-End Differentiable GANs for Text Generation\" accepted at the ICBINB@NeurIPS 2020."
+  links: []
+
+- date: "2020-11"
+  display_text: "November 2020"
+  text: "[November 2020] Invited Talk on \"Language Generation with Continuous Outputs\" at G-Research, London."
+  links: []
+
+- date: "2020-08"
+  display_text: "August 2020"
+  text: "[Aug 2020] Teaching Assistant for the brand new course on Multilingual NLP (Fall 2020) at CMU."
+  links:
+    - { label: "Multilingual NLP (Fall 2020)", url: "http://demo.clab.cs.cmu.edu/11737fa20/" }
+
+- date: "2020-05"
+  display_text: "May 2020"
+  text: "[May 2020] Paper on \"A Deep Reinforced Model for Cross-Lingual Summarization with Bilingual Semantic Similarity Reward\" accepted at WNGT@ACL 2020."
+  links: []
+
+- date: "2019-12"
+  display_text: "December 2019"
+  text: "[December 2019] Going to Facebook AI Research, Seattle (virtually) for the summer."
+  links: []
+
+- date: "2019-11"
+  display_text: "November 2019"
+  text: "[November 2019] Presented two posters at EMNLP 2019 in Hong Kong"
+  links: []
+
+- date: "2019-09"
+  display_text: "September 2019"
+  text: "[September 2019] Paper on \"A Margin-based Loss with Synthetic Negative Samples for Continuous-output Machine Translation\" accepted at EMNLP-WNGT workshop!"
+  links: []
+
+- date: "2019-09"
+  display_text: "September 2019"
+  text: "[September 2019] Teaching Assistant for Algorithms for NLP (Fall 2019)"
+  links:
+    - { label: "Algorithms for NLP", url: "http://demo.clab.cs.cmu.edu/11711fa19/" }
+
+- date: "2019-08"
+  display_text: "August 2019"
+  text: "[August 2019] Paper on \"Topics to Avoid: Demoting Latent Confounds in Text Classification\" accepted at EMNLP 2019!"
+  links: []
+
+- date: "2019-05"
+  display_text: "May 2019"
+  text: "[May 2019] Headed to Facebook for the summer as a research intern in their conversational AI team in Menlo Park."
+  links: []
+
+- date: "2018-12"
+  display_text: "December 2018"
+  text: "[December 2018] Paper on \"Von Mises-Fisher Loss for Training Sequence to Sequence Models with Continuous Outputs\" accepted at ICLR 2019!"
+  links:
+    - { label: "Von Mises-Fisher Loss for Training Sequence to Sequence Models with Continuous Outputs", url: "https://openreview.net/forum?id=rJlDnoA5Y7" }
+
+- date: "2018-10"
+  display_text: "October 2018"
+  text: "[October 2018] Gave my first ever lecture in Algorithms for NLP on Structural Classification"
+  links: []
+
+- date: "2018-09"
+  display_text: "September 2018"
+  text: "[September 2018] Teaching Assistant for Algorithms for NLP (Fall 2018)"
+  links:
+    - { label: "Algorithms for NLP", url: "http://demo.clab.cs.cmu.edu/11711fa18" }
+
+- date: "2018-08"
+  display_text: "August 2018"
+  text: "[August 2018] Gave a talk about my research on Machine Translation with Continuous Outputs at LTI's Student Research Symposium"
+  links: []
+
+- date: "2017-08"
+  display_text: "August 2017"
+  text: "[August 2017] Headed to CMU LTI to start my PhD"
+  links: []

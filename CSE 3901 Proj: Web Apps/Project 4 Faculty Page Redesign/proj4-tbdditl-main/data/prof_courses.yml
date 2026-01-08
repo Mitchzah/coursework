@@ -1,0 +1,19 @@
+current_courses:
+  - term: "Fall"
+    year: 2025
+    code: "CSE 5525"
+    title: "Foundations of Speech and Language Processing"
+    url: "https://shocheen.github.io/cse-5525-fall-2025/"
+
+past_courses:
+  - term: "Spring"
+    year: 2025
+    code: "CSE 5525"
+    title: "Foundations of Speech and Language Processing"
+    url: "https://shocheen.github.io/cse-5525-spring-2025/"
+
+  - term: "Fall"
+    year: 2024
+    code: "CSE 5539"
+    title: "Advanced Topics in Natural Language Processing"
+    url: "https://shocheen.github.io/advanced-nlp-fall-2024/"

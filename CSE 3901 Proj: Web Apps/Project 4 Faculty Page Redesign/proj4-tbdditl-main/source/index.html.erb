@@ -1,0 +1,56 @@
+---
+title: Home
+---
+
+<section class="bux-hero bux-hero--card-right bux-hero--3x2 bux-mar-tb-sp-48">
+  <div
+    id="bux-hero__carousel-1229601334-items"
+    class="bux-hero__carousel-items"
+  >
+    <div
+      id="bux-hero__carousel-1229601334-tab-1"
+      class="bux-hero__container showing"
+    >
+      <div class="bux-hero__content">
+        <h2 class="bux-hero__header">
+          <span>Sanchit Kumar</span>
+        </h2>
+
+        <div class="bux-hero__subheader">
+          <span>Assistant Professor <br> Computer Science and Engineering</span>
+        </div>
+        <a class="bux-button bux-button--alt" href="https://drive.google.com/file/d/1aBJZ-iZ0UHAgoyFvDZft_zFqqdF3HBhF/view">CV</a>
+      </div>
+      <div class="bux-hero__image-container">
+        <div class="bux-hero__image bux-hero__image--3x2">
+          <img
+            class="bux-image"
+            src="/images/SachinKumar.jpg"
+            alt="A headshot of Sachin Kumar"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%= partial "layouts/bio" %>
+
+<div class="bux-grid">
+  <div class="bux-grid__cell bux-grid__cell--6">
+    <h3 class="bux-h2">Currently Teaching</h3>
+      <ul>
+        <% data.prof_courses.current_courses.each do |course| %>
+          <li> <%= course.code %> <%= course.title %> (<%= course.term %> <%= course.year %>) </li>
+        <% end %>
+      </ul>
+  </div>
+  <div class="bux-grid__cell bux-grid__cell--6">
+    <h3 class="bux-h2">Recent News</h3>
+        <ul>
+          <% data.prof_news.first(3).each do |news| %>
+            <li> <%= news.text %> </li>
+          <% end %>
+      </ul>
+  </div>
+</div>

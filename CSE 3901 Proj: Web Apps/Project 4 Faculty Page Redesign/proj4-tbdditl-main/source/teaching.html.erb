@@ -1,0 +1,77 @@
+---
+title: Teaching
+permalink: /teaching/
+---
+
+<div>
+    <h1 class="bux-h1 bux-mar-top-sp-16">Teaching </h1>
+    <p> The following is a list of courses I have taught or I am currently teaching: </p>
+</div>
+
+<br>
+
+<table class="bux-table bux-table--compact" aria-describedby="summary-compact">
+    <caption>
+        Current courses
+    </caption>
+    <thead>
+        <tr>
+            <th scope="col">Semester</th>
+            <th scope="col">Year</th>
+            <th scope="col">Course Code</th>
+            <th scope="col">Course Title</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% data.prof_courses.current_courses.each do |course| %>
+        <tr>
+            <td><%= course.term %></td>
+            <td><%= course.year %></td>
+            <td><%= course.code %></td>
+            <td> 
+                <div class="bux-link-example bux-link-example--after"> 
+                    <p> 
+                        <a class="bux-link bux-link--after" href="<%= course.url %>"> 
+                            <%= course.title %> 
+                        </a> 
+                    </p> 
+                </div>
+            </td> 
+        </tr>
+        <% end %>
+    </tbody>
+</table>
+
+<br>
+
+<table class="bux-table bux-table--compact" aria-describedby="summary-compact">
+    <caption>
+        Past courses
+    </caption>
+    <thead>
+        <tr>
+            <th scope="col">Semester</th>
+            <th scope="col">Year</th>
+            <th scope="col">Course Code</th>
+            <th scope="col">Course Title</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% data.prof_courses.past_courses.each do |course| %>
+        <tr>
+            <td><%= course.term %></td>
+            <td><%= course.year %></td>
+            <td><%= course.code %></td>
+            <td> 
+                <div class="bux-link-example bux-link-example--after"> 
+                    <p> 
+                        <a class="bux-link bux-link--after" href="<%= course.url %>"> 
+                            <%= course.title %> 
+                        </a> 
+                    </p> 
+                </div>
+            </td>
+        </tr>
+        <% end %>
+    </tbody>
+</table>

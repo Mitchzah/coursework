@@ -1,0 +1,52 @@
+<section class="bux-section bux-section--publications">
+  <div class="bux-container">
+    <h2>Publications</h2>
+
+    <%# Prefer data/research.yml if present (scraped entries). Fallback to a small sample list. %>
+    <% pubs = if data.respond_to?(:research) && data.research
+                data.research
+              else
+                [
+                  { 'year' => '2025', 'title' => 'FlexiTokens: Making Tokenization Flexible for Adaptation', 'venue' => 'ICML/TokShop', 'link' => '#' },
+                  { 'year' => '2025', 'title' => 'BLAB: Benchmarking Audio LMs', 'venue' => 'Workshop / arXiv', 'link' => '#' },
+                  { 'year' => '2024', 'title' => 'ComPO: Personalization Paper', 'venue' => 'EMNLP 2024', 'link' => '#' }
+                ]
+              end %>
+
+    <table class="bux-table bux-table--striped" aria-describedby="publications-table">
+      <caption id="publications-table">Publications — year, title, venue</caption>
+      <thead>
+        <tr>
+          <th scope="col">Year</th>
+          <th scope="col">Title</th>
+          <th scope="col">Venue</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% pubs.each do |p| %>
+          <tr>
+            <td><%= p['year'] || p[:year] %></td>
+            <td>
+              <% title = p['title'] || p[:title] || p['title_text'] || p['title'] %>
+              <% link = p['link'] || p[:link] %>
+              <% if link && link != '#' %>
+                <a href="<%= link %>" target="_blank" rel="noopener noreferrer"><%= title %></a>
+              <% else %>
+                <%= title %>
+              <% end %>
+            </td>
+            <td><%= p['venue'] || p[:venue] %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</section>
+<section id="publications" class="bux-section bux-section--publications auto-section">
+  <div class="bux-container">
+    <h2 class="bux-section__title">Publications</h2>
+    <div class="bux-section__content">
+      <p>Publications list or highlights go here. Replace with a loop over your publications data or a partial that renders the publication entries.</p>
+    </div>
+  </div>
+</section>
