@@ -1,0 +1,82 @@
+---
+title: Curriculum Visualizer
+---
+
+<main id="main-content" class="bux-container">
+
+  <%= partial "partials/disclaimer" %>
+
+  <div>
+    <label for="major-select">Select Major:</label>
+    <select id="major-select">
+      <option value="cis">BS CIS</option>
+      <option value="cse">BS CSE</option>
+      <option value="mecheng">BS ME</option>
+      <option value="ece-ce">BS ECE-CE</option>
+    </select>
+  </div>
+
+  <!-- Legend showing what each color means -->
+  <div id="legend" class="legend">
+    <strong>Legend:</strong>
+    <div class="legend-item">
+      <span class="legend-swatch ge-swatch" aria-hidden="true"></span>
+      <span class="legend-label">Green: GEs</span>
+    </div>
+    <div class="legend-item">
+      <span class="legend-swatch math-swatch" aria-hidden="true"></span>
+      <span class="legend-label">Blue: Math courses</span>
+    </div>
+    <div class="legend-item">
+      <span class="legend-swatch required-swatch" aria-hidden="true"></span>
+      <span class="legend-label">Red: Core curriculum</span>
+    </div>
+    <div class="legend-item">
+      <span class="legend-swatch science-swatch" aria-hidden="true"></span>
+      <span class="legend-label">Grey: Hard sciences</span>
+    </div>
+    <div class="legend-item">
+      <span class="legend-swatch noncore-swatch" aria-hidden="true"></span>
+      <span class="legend-label">Purple: Non-core required</span>
+    </div>
+    <div class="legend-item">
+      <span class="legend-swatch tech-swatch" aria-hidden="true"></span>
+      <span class="legend-label">Gold: Tech elective</span>
+    </div>
+    </div>
+
+  <div id="visualizer-container">
+      <div id="timeline-container"></div>
+      <div id="details-container"></div>
+  </div>
+
+  <!-- Flowchart panel: controls and visualization for prerequisite flows -->
+  <div id="flowchart-panel" class="flowchart-panel">
+    <div id="flowchart-controls" class="flowchart-controls">
+      <label for="type-select">Class type:</label>
+      <select id="type-select">
+        <option value="all">All</option>
+        <option value="ge">GE</option>
+        <option value="math">Math</option>
+        <option value="core">Core curriculum</option>
+        <option value="noncore">Non-core required</option>
+  <option value="science">Hard sciences</option>
+      </select>
+      <label for="course-select">Select course:</label>
+      <select id="course-select">
+        <option value="">(choose course)</option>
+      </select>
+
+      <label for="connectors-toggle" style="margin-left: .5rem; white-space: nowrap;">Show connectors</label>
+      <input type="checkbox" id="connectors-toggle" checked />
+    </div>
+
+    <div id="flowchart-container" class="flowchart-container">
+      <svg id="flowchart-svg" class="flowchart-svg" aria-hidden="true"></svg>
+      <div id="flowchart-columns" class="flowchart-columns"></div>
+    </div>
+  </div>
+
+  <%= partial "partials/guide" %>
+
+</main>

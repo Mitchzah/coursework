@@ -1,0 +1,338 @@
+{
+    "semesters": [
+        {
+            "name": "Year 1 - Autumn",
+            "courses": [
+                {
+                    "id": "MATH_1151",
+                    "title": "MATH 1151",
+                    "prereqs": []
+                },
+                {
+                    "id": "PHYSICS_1250",
+                    "title": "PHYSICS 1250",
+                    "prereqs": [
+                        "MATH_1151"
+                    ]
+                },
+                {
+                    "id": "ENGR_1181",
+                    "title": "ENGR 1181",
+                    "prereqs": []
+                },
+                {
+                    "id": "ENGR_1100",
+                    "title": "ENGR 1100",
+                    "prereqs": []
+                },
+                {
+                    "id": "GE_GENERAL_1",
+                    "title": "General Education",
+                    "prereqs": []
+                }
+            ]
+        },
+        {
+            "name": "Year 1 - Spring",
+            "courses": [
+                {
+                    "id": "MATH_1172",
+                    "title": "MATH 1172",
+                    "prereqs": [
+                        "MATH_1151"
+                    ]
+                },
+                {
+                    "id": "CHEM_1250",
+                    "title": "CHEM 1250",
+                    "prereqs": []
+                },
+                {
+                    "id": "ENGR_1182",
+                    "title": "ENGR 1182",
+                    "prereqs": [
+                        "ENGR_1181"
+                    ]
+                },
+                {
+                    "id": "GENED_1201",
+                    "title": "Launch Seminar",
+                    "prereqs": []
+                },
+                {
+                    "id": "GE_GENERAL_2",
+                    "title": "General Education",
+                    "prereqs": []
+                }
+            ]
+        },
+        {
+            "name": "Year 2 - Autumn",
+            "courses": [
+                {
+                    "id": "MATH_2173",
+                    "title": "MATH 2173",
+                    "prereqs": [
+                        "MATH_1172"
+                    ]
+                },
+                {
+                    "id": "PHYSICS_1251",
+                    "title": "PHYSICS 1251",
+                    "prereqs": [
+                        "PHYSICS_1250",
+                        "MATH_1151"
+                    ]
+                },
+                {
+                    "id": "MECHENG_2010",
+                    "title": "MECHENG 2010",
+                    "prereqs": [
+                        "ENGR_1181",
+                        "PHYSICS_1250",
+                        "MATH_1151"
+                    ]
+                },
+                {
+                    "id": "STAT_3450",
+                    "title": "STAT 3450",
+                    "prereqs": [
+                        "MATH_1152"
+                    ]
+                },
+                {
+                    "id": "ISE_2040",
+                    "title": "ISE 2040",
+                    "prereqs": []
+                },
+                {
+                    "id": "MATSCEN_2010",
+                    "title": "MATSCEN 2010",
+                    "prereqs": [
+                        "PHYSICS_1250",
+                        "MATH_1151",
+                        "CHEM_1250"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Year 2 - Spring",
+            "courses": [
+                {
+                    "id": "MATH_2174",
+                    "title": "MATH 2174",
+                    "prereqs": [
+                        "MATH_2173"
+                    ]
+                },
+                {
+                    "id": "MECHENG_2020",
+                    "title": "MECHENG 2020",
+                    "prereqs": [
+                        "MECHENG_2010"
+                    ]
+                },
+                {
+                    "id": "MECHENG_2030",
+                    "title": "MECHENG 2030",
+                    "prereqs": [
+                        "MECHENG_2010"
+                    ]
+                },
+                {
+                    "id": "MECHENG_2900",
+                    "title": "MECHENG 2900",
+                    "prereqs": [
+                        "PHYSICS_1251"
+                    ]
+                },
+                {
+                    "id": "MECHENG_2850.01",
+                    "title": "MECHENG 2850.01",
+                    "prereqs": [
+                        "MECHENG_2010"
+                    ]
+                },
+                {
+                    "id": "GE_GENERAL_3",
+                    "title": "General Education",
+                    "prereqs": []
+                }
+            ]
+        },
+        {
+            "name": "Year 3 - Autumn",
+            "courses": [
+                {
+                    "id": "ECE_2300",
+                    "title": "ECE 2300",
+                    "prereqs": [
+                        "PHYSICS_1251",
+                        "MATH_1172"
+                    ]
+                },
+                {
+                    "id": "MECHENG_3260",
+                    "title": "MECHENG 3260",
+                    "prereqs": [
+                        "MECHENG_2850.01",
+                        "MECHENG_2900"
+                    ]
+                },
+                {
+                    "id": "MECHENG_3501",
+                    "title": "MECHENG 3501",
+                    "prereqs": [
+                        "MECHENG_2850.01",
+                        "MECHENG_2900",
+                        "CHEM_1250"
+                    ]
+                },
+                {
+                    "id": "MECHENG_3670",
+                    "title": "MECHENG 3670",
+                    "prereqs": [
+                        "MECHENG_2850.01",
+                        "MECHENG_2900",
+                        "MECHENG_2020",
+                        "MECHENG_2030"
+                    ]
+                },
+                {
+                    "id": "MECHENG_3751",
+                    "title": "MECHENG 3751",
+                    "prereqs": [
+                        "MECHENG_2030",
+                        "MECHENG_2900"
+                    ]
+                },
+                {
+                    "id": "GE_GENERAL_4",
+                    "title": "General Education",
+                    "prereqs": []
+                }
+            ]
+        },
+        {
+            "name": "Year 3 - Spring",
+            "courses": [
+                {
+                    "id": "MECHENG_3360",
+                    "title": "MECHENG 3360",
+                    "prereqs": [
+                        "MECHENG_3260"
+                    ]
+                },
+                {
+                    "id": "MECHENG_3503",
+                    "title": "MECHENG 3503",
+                    "prereqs": [
+                        "MECHENG_2850.01",
+                        "MECHENG_3501"
+                    ]
+                },
+                {
+                    "id": "MECHENG_3671",
+                    "title": "MECHENG 3671",
+                    "prereqs": [
+                        "MECHENG_3670",
+                        "MECHENG_3751"
+                    ]
+                },
+                {
+                    "id": "MECHENG_3870",
+                    "title": "MECHENG 3870",
+                    "prereqs": [
+                        "MECHENG_3260",
+                        "STAT_3450"
+                    ]
+                },
+                {
+                    "id": "GE_THEME_CITIZENSHIP",
+                    "title": "General Education",
+                    "prereqs": []
+                }
+            ]
+        },
+        {
+            "name": "Year 4 - Autumn",
+            "courses": [
+                {
+                    "id": "MECHENG_4510",
+                    "title": "MECHENG 4510",
+                    "prereqs": [
+                        "MECHENG_3503"
+                    ]
+                },
+                {
+                    "id": "ISE_4500",
+                    "title": "ISE 4500",
+                    "prereqs": [
+                        "MECHENG_3670"
+                    ]
+                },
+                {
+                    "id": "MECHENG_490X_01",
+                    "title": "MECHENG 490X.01",
+                    "prereqs": [
+                        "MECHENG_3360",
+                        "MECHENG_3671",
+                        "MECHENG_3870"
+                    ]
+                },
+                {
+                    "id": "TECH_ELECTIVE_1",
+                    "title": "Technical Elective",
+                    "prereqs": []
+                },
+                {
+                    "id": "TECH_ELECTIVE_2",
+                    "title": "Technical Elective",
+                    "prereqs": []
+                },
+                {
+                    "id": "GE_GENERAL_5",
+                    "title": "General Education",
+                    "prereqs": []
+                }
+            ]
+        },
+        {
+            "name": "Year 4 - Spring",
+            "courses": [
+                {
+                    "id": "MECHENG_490X_02",
+                    "title": "MECHENG 490X.02",
+                    "prereqs": [
+                        "MECHENG_490X_01"
+                    ]
+                },
+                {
+                    "id": "MECHENG_4870",
+                    "title": "MECHENG 4870",
+                    "prereqs": [
+                        "MECHENG_3360",
+                        "MECHENG_3671",
+                        "MECHENG_3870"
+                    ]
+                },
+                {
+                    "id": "TECH_ELECTIVE_3",
+                    "title": "Technical Elective",
+                    "prereqs": []
+                },
+                {
+                    "id": "TECH_ELECTIVE_4",
+                    "title": "Technical Elective",
+                    "prereqs": []
+                },
+                {
+                    "id": "GE_STUDENT_CHOICE",
+                    "title": "General Education",
+                    "prereqs": []
+                }
+            ]
+        }
+    ]
+}

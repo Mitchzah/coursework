@@ -1,0 +1,298 @@
+{
+    "semesters": [
+        {
+            "name": "Year 1 - Autumn",
+            "courses": [
+                {
+                    "id": "ASC_1100",
+                    "title": "ASC 1100",
+                    "prereqs": []
+                },
+                {
+                    "id": "MATH_1151",
+                    "title": "Math 1151",
+                    "prereqs": []
+                },
+                {
+                    "id": "CSE_1223",
+                    "title": "CSE 1223",
+                    "prereqs": []
+                },
+                {
+                    "id": "PHYSICS_1250",
+                    "title": "Physics 1250",
+                    "prereqs": [
+                        "MATH_1151"
+                    ]
+                },
+                {
+                    "id": "GE_LAUNCH",
+                    "title": "GE-Launch Seminar",
+                    "prereqs": []
+                }
+            ]
+        },
+        {
+            "name": "Year 1 - Spring",
+            "courses": [
+                {
+                    "id": "CSE_2221",
+                    "title": "CSE 2221",
+                    "prereqs": [
+                        "CSE_1223"
+                    ]
+                },
+                {
+                    "id": "MATH_1152",
+                    "title": "Math 1152",
+                    "prereqs": [
+                        "MATH_1151"
+                    ]
+                },
+                {
+                    "id": "GE_WRITING",
+                    "title": "GE-Writing",
+                    "prereqs": []
+                },
+                {
+                    "id": "SCIENCE_ELECTIVE",
+                    "title": "Science",
+                    "prereqs": []
+                }
+            ]
+        },
+        {
+            "name": "Year 2 - Autumn",
+            "courses": [
+                {
+                    "id": "CSE_2231",
+                    "title": "CSE 2231",
+                    "prereqs": [
+                        "CSE_2221",
+                        "MATH_1151"
+                    ]
+                },
+                {
+                    "id": "CSE_2321",
+                    "title": "CSE 2321",
+                    "prereqs": [
+                        "CSE_2221",
+                        "MATH_1151"
+                    ]
+                },
+                {
+                    "id": "STAT_3470",
+                    "title": "Stat 3470",
+                    "prereqs": [
+                        "MATH_1152"
+                    ]
+                },
+                {
+                    "id": "FOREIGN_LANG_1",
+                    "title": "Foreign Language 1",
+                    "prereqs": []
+                }
+            ]
+        },
+        {
+            "name": "Year 2 - Spring",
+            "courses": [
+                {
+                    "id": "CSE_2331",
+                    "title": "CSE 2331",
+                    "prereqs": [
+                        "CSE_2231",
+                        "CSE_2321",
+                        "STAT_3470"
+                    ]
+                },
+                {
+                    "id": "CSE_2421",
+                    "title": "CSE 2421",
+                    "prereqs": [
+                        "CSE_2231",
+                        "CSE_2321"
+                    ]
+                },
+                {
+                    "id": "MATH_3345",
+                    "title": "Math 3345",
+                    "prereqs": [
+                        "CSE_2321",
+                        "MATH_1152"
+                    ]
+                },
+                {
+                    "id": "FOREIGN_LANG_2",
+                    "title": "Foreign Language 2",
+                    "prereqs": [
+                        "FOREIGN_LANG_1"
+                    ]
+                },
+                {
+                    "id": "GE_DIVERSITY",
+                    "title": "GE-Diversity",
+                    "prereqs": []
+                }
+            ]
+        },
+        {
+            "name": "Year 3 - Autumn",
+            "courses": [
+                {
+                    "id": "CSE_2431",
+                    "title": "CSE 2431",
+                    "prereqs": [
+                        "CSE_2421"
+                    ]
+                },
+                {
+                    "id": "CSE_390X",
+                    "title": "CSE 390X (Project)",
+                    "prereqs": [
+                        "CSE_2231",
+                        "CSE_2321",
+                        "CSE_2421"
+                    ]
+                },
+                {
+                    "id": "ECE_2060",
+                    "title": "ECE 2060",
+                    "prereqs": []
+                },
+                {
+                    "id": "FOREIGN_LANG_3",
+                    "title": "Foreign Language 3",
+                    "prereqs": [
+                        "FOREIGN_LANG_2"
+                    ]
+                },
+                {
+                    "id": "GE_HISTORY",
+                    "title": "GE-History",
+                    "prereqs": []
+                }
+            ]
+        },
+        {
+            "name": "Year 3 - Spring",
+            "courses": [
+                {
+                    "id": "CSE_32X1",
+                    "title": "CSE 32X1 (SE/DB)",
+                    "prereqs": [
+                        "CSE_2231",
+                        "CSE_2321",
+                        "CSE_390X"
+                    ]
+                },
+                {
+                    "id": "CSE_34X1",
+                    "title": "CSE 34X1 (Arch/Net)",
+                    "prereqs": [
+                        "CSE_2231",
+                        "CSE_2421"
+                    ]
+                },
+                {
+                    "id": "CSE_35X1",
+                    "title": "CSE 35X1 (AI/Game)",
+                    "prereqs": [
+                        "CSE_2331",
+                        "STAT_3470",
+                        "CSE_390X"
+                    ]
+                },
+                {
+                    "id": "GE_SBS",
+                    "title": "GE-SBS",
+                    "prereqs": []
+                },
+                {
+                    "id": "CSE_2501",
+                    "title": "CSE 2501 / PHILOS 2338",
+                    "prereqs": [
+                        "CSE_2231",
+                        "CSE_2321",
+                        "GE_WRITING"
+                    ]
+                },
+                {
+                    "id": "GE_THEME_1",
+                    "title": "GE-Theme",
+                    "prereqs": []
+                }
+            ]
+        },
+        {
+            "name": "Year 4 - Autumn",
+            "courses": [
+                {
+                    "id": "CSE_3341",
+                    "title": "CSE 3341",
+                    "prereqs": [
+                        "CSE_2331",
+                        "CSE_2421",
+                        "CSE_390X"
+                    ]
+                },
+                {
+                    "id": "TECH_ELECTIVE_1",
+                    "title": "Technical Elective",
+                    "prereqs": []
+                },
+                {
+                    "id": "TECH_ELECTIVE_2",
+                    "title": "Technical Elective",
+                    "prereqs": []
+                },
+                {
+                    "id": "TECH_ELECTIVE_3",
+                    "title": "Technical Elective",
+                    "prereqs": []
+                },
+                {
+                    "id": "GE_LITVPA",
+                    "title": "GE-LitVPA",
+                    "prereqs": []
+                }
+            ]
+        },
+        {
+            "name": "Year 4 - Spring",
+            "courses": [
+                {
+                    "id": "CSE_591X",
+                    "title": "CSE 591X (Capstone)",
+                    "prereqs": [
+                        "CSE_32X1",
+                        "CSE_35X1",
+                        "CSE_2501",
+                        "CSE_390X",
+                        "GE_WRITING"
+                    ]
+                },
+                {
+                    "id": "TECH_ELECTIVE_4",
+                    "title": "Technical Elective",
+                    "prereqs": []
+                },
+                {
+                    "id": "TECH_ELECTIVE_5",
+                    "title": "Technical Elective",
+                    "prereqs": []
+                },
+                {
+                    "id": "TECH_ELECTIVE_6",
+                    "title": "Technical Elective",
+                    "prereqs": []
+                },
+                {
+                    "id": "GE_THEME_2",
+                    "title": "GE-Theme",
+                    "prereqs": []
+                }
+            ]
+        }
+    ]
+}

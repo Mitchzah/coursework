@@ -1,0 +1,407 @@
+/* This file will hold all the in-house styles for the project if no CSS library is being used.
+  
+  To-Do:
+  1. Add styles for the horizontal scrolling container (for #timeline-container). COMPLETED
+  2. Add styles for the semester columns and course boxes.
+  3. Add the helper classes for highlighting (e.g., .selected, .prereq-highlight).
+*/
+
+#main-content.bux-container {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#visualization-controls {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#timeline-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(220px, 1fr);
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #a7b1b7;
+}
+
+#visualizer-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+#timeline-container {
+  flex: auto;
+}
+
+#details-container {
+  display: none;
+}
+
+#details-container.visible {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #a7b1b7;
+}
+
+.semester-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #dfe3e5;
+}
+
+.course-box {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #dfe3e5;
+  cursor: default;
+  white-space: nowrap;
+}
+
+.course-box:hover {
+  background-color: #dfe3e5;
+  transition: background-color 0.2s ease;
+}
+
+.prereq-highlight {
+  /* Stronger, darker neutral highlight for prerequisites */
+  background-color: #dfe6ea;
+  border-color: #9aa7ac;
+  transition: background-color 0.12s ease, border-color 0.12s ease;
+}
+
+/* Styling for General Education (GE) course boxes */
+.course-box.ge-course {
+  background-color: #e8f6ea;
+  /* light green */
+  border-color: #2e7d32;
+  /* darker green border */
+  color: #1b5e20;
+  /* dark green text for contrast */
+}
+
+.course-box.ge-course:hover {
+  background-color: #d0f0d1;
+  /* slightly darker on hover */
+}
+
+/* Ensure prerequisite highlight keeps GE green but darker */
+.course-box.ge-course.prereq-highlight {
+  background-color: #bfeacb;
+  border-color: #2e7d32;
+}
+
+/* Legend styles */
+.legend {
+  margin: 0.5rem 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+}
+
+/* Required-for-selected-major styles (red) */
+.course-box.required-course {
+  background-color: #fdecea;
+  /* light red/pink */
+  border-color: #c62828;
+  /* red border */
+  color: #8b0000;
+  /* dark red text */
+}
+
+.course-box.required-course:hover {
+  background-color: #f9d6d3;
+}
+
+/* Ensure prerequisite highlight keeps required red */
+.course-box.required-course.prereq-highlight {
+  background-color: #f6b8b5;
+}
+
+.legend-swatch.required-swatch {
+  background-color: #fdecea;
+  border-color: #c62828;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.legend-swatch {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.125rem;
+  display: inline-block;
+  border: 1px solid #999;
+}
+
+.legend-swatch.ge-swatch {
+  background-color: #e8f6ea;
+  /* match GE background */
+  border-color: #2e7d32;
+  /* match GE border */
+}
+
+.legend-label {
+  color: #333;
+}
+
+/* Math course styles (blue) */
+.course-box.math-course {
+  background-color: #e9f0ff;
+  /* light blue */
+  border-color: #1e88e5;
+  /* medium blue border */
+  color: #0d47a1;
+  /* dark blue text */
+}
+
+.course-box.math-course:hover {
+  background-color: #d6e8ff;
+}
+
+/* When a math course is highlighted as a prerequisite, keep a blue highlight */
+.course-box.math-course.prereq-highlight {
+  background-color: #cfe6ff;
+}
+
+.legend-swatch.math-swatch {
+  background-color: #e9f0ff;
+  /* match math background */
+  border-color: #1e88e5;
+}
+
+/* Hard science styles (grey) */
+.course-box.science-course {
+  background-color: #f2f2f2;
+  /* light grey */
+  border-color: #8a8a8a;
+  /* medium grey border */
+  color: #2f2f2f;
+  /* dark grey text */
+}
+
+.course-box.science-course:hover {
+  background-color: #e6e6e6;
+}
+
+/* Ensure prerequisite highlight keeps science grey */
+.course-box.science-course.prereq-highlight {
+  background-color: #dcdcdc;
+}
+
+.legend-swatch.science-swatch {
+  background-color: #f2f2f2;
+  border-color: #8a8a8a;
+}
+
+/* Non-core required styles (purple) */
+.course-box.noncore-required {
+  background-color: #f4e8ff;
+  /* light purple */
+  border-color: #7b1fa2;
+  /* purple border */
+  color: #4a0072;
+  /* dark purple text */
+}
+
+.course-box.noncore-required:hover {
+  background-color: #e8d6ff;
+}
+
+.course-box.noncore-required.prereq-highlight {
+  background-color: #dcc1ff;
+}
+
+.legend-swatch.noncore-swatch {
+  background-color: #f4e8ff;
+  border-color: #7b1fa2;
+}
+
+/* Tech elective styles (gold) */
+.course-box.tech-elective {
+  background-color: #fff7e6;
+  /* light gold */
+  border-color: #d4a017;
+  /* golden border */
+  color: #6b4a00;
+  /* dark golden text */
+}
+
+.course-box.tech-elective:hover {
+  background-color: #ffefcc;
+}
+
+.course-box.tech-elective.prereq-highlight {
+  background-color: #ffdfa6;
+}
+
+.legend-swatch.tech-swatch {
+  background-color: #fff7e6;
+  border-color: #d4a017;
+}
+
+/* Flowchart styles */
+.flowchart-panel {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border: 1px solid #d0d7da;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.flowchart-controls {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.flowchart-container {
+  position: relative;
+  min-height: 120px;
+  overflow: auto;
+  padding: 0.5rem;
+}
+
+.flowchart-columns {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  /* ensure columns and boxes sit above the SVG connectors */
+  position: relative;
+  z-index: 2;
+}
+
+.flow-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 160px;
+}
+
+.flow-box {
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  border: 1px solid #cfcfcf;
+  background: #fff;
+  text-align: center;
+  font-size: 0.9rem;
+  /* position boxes above the SVG so connectors never overlap visually */
+  position: relative;
+  z-index: 3;
+}
+
+/* Ensure flowchart boxes keep the same category colors as timeline course boxes */
+.flow-box.ge-course {
+  background-color: #e8f6ea;
+  border-color: #2e7d32;
+  color: #1b5e20;
+}
+
+.flow-box.ge-course:hover {
+  background-color: #d0f0d1;
+}
+
+.flow-box.ge-course.prereq-highlight {
+  background-color: #bfeacb;
+  border-color: #2e7d32;
+}
+
+.flow-box.math-course {
+  background-color: #e9f0ff;
+  border-color: #1e88e5;
+  color: #0d47a1;
+}
+
+.flow-box.math-course:hover {
+  background-color: #d6e8ff;
+}
+
+.flow-box.math-course.prereq-highlight {
+  background-color: #cfe6ff;
+}
+
+.flow-box.required-course {
+  background-color: #fdecea;
+  border-color: #c62828;
+  color: #8b0000;
+}
+
+.flow-box.required-course:hover {
+  background-color: #f9d6d3;
+}
+
+.flow-box.required-course.prereq-highlight {
+  background-color: #f6b8b5;
+}
+
+.flow-box.science-course {
+  background-color: #f2f2f2;
+  border-color: #8a8a8a;
+  color: #2f2f2f;
+}
+
+.flow-box.science-course:hover {
+  background-color: #e6e6e6;
+}
+
+.flow-box.science-course.prereq-highlight {
+  background-color: #dcdcdc;
+}
+
+.flow-box.noncore-required {
+  background-color: #f4e8ff;
+  border-color: #7b1fa2;
+  color: #4a0072;
+}
+
+.flow-box.noncore-required:hover {
+  background-color: #e8d6ff;
+}
+
+.flow-box.noncore-required.prereq-highlight {
+  background-color: #dcc1ff;
+}
+
+.flow-box.tech-elective {
+  background-color: #fff7e6;
+  border-color: #d4a017;
+  color: #6b4a00;
+}
+
+.flow-box.tech-elective:hover {
+  background-color: #ffefcc;
+}
+
+.flow-box.tech-elective.prereq-highlight {
+  background-color: #ffdfa6;
+}
+
+.flowchart-svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  /* put SVG behind boxes */
+  z-index: 1;
+}

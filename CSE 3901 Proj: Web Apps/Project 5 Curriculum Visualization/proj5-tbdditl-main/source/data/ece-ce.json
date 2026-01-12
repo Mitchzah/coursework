@@ -1,0 +1,317 @@
+{
+    "semesters": [
+        {
+            "name" : "Year 1 - Autumn",
+            "courses" : [
+                {
+                    "id": "ENGR_1100",
+                    "title" : "ENGR 1100",
+                    "prereqs" : []
+                },
+                {
+                    "id": "ENGR_1181",
+                    "title" : "ENGR 1181",
+                    "prereqs" : []
+                },
+                {
+                    "id": "MATH_1151",
+                    "title" : "MATH 1151",
+                    "prereqs" : []
+                },
+                {
+                    "id": "PHYSICS_1250",
+                    "title" : "PHYSICS 1250",
+                    "prereqs" : [
+                        "MATH_1151"
+                    ]
+                },
+                {
+                    "id": "CSE_1222",
+                    "title" : "CSE 1222",
+                    "prereqs" : []
+                }
+            ]
+        },
+        {
+            "name" : "Year 1 - Spring",
+            "courses" : [
+                {
+                    "id": "ENGR_1182",
+                    "title" : "ENGR 1182",
+                    "prereqs" : [
+                        "ENGR_1181"
+                    ]
+                },
+                {
+                    "id": "MATH_1172",
+                    "title" : "MATH 1172",
+                    "prereqs" : [
+                        "MATH_1151"
+                    ]
+                },
+                {
+                    "id": "CSE_2221",
+                    "title" : "CSE 2221",
+                    "prereqs" : [
+                        "CSE_1222"
+                    ]
+                },
+                {
+                    "id": "ECE_2060",
+                    "title" : "ECE 2060",
+                    "prereqs" : [
+                        "CSE_1222",
+                        "PHYSICS_1250",
+                        "MATH_1172",
+                        "CSE_2221"
+                    ]
+                },
+                {
+                    "id": "GE_LAUNCH_SEMINAR",
+                    "title" : "GE Launch Seminar",
+                    "prereqs" : []
+                }
+            ]
+        },
+        {
+            "name": "Year 2 - Autumn",
+            "courses": [
+                {
+                    "id": "PHYSICS_1251",
+                    "title": "PHYSICS 1251",
+                    "prereqs": [
+                        "PHYSICS_1250",
+                        "MATH_1172"
+                    ]
+                },
+                {
+                    "id": "CSE_2231",
+                    "title": "CSE 2231",
+                    "prereqs": [
+                        "CSE_1222",
+                        "MATH_1151"
+                    ]
+                },
+                {
+                    "id": "CSE 2321",
+                    "title": "CSE 2321",
+                    "prereqs": [
+                        "CSE_2221",
+                        "MATH_1151"
+                    ]
+                },
+                {
+                    "id": "ECE_2020",
+                    "title": "ECE 2020",
+                    "prereqs": [
+                        "CSE_1222",
+                        "CSE_2221",
+                        "PHYSICS_1250",
+                        "MATH_1172",
+                        "ENGR_1182"
+                    ]
+                },
+                {
+                    "id": "ECE_2560",
+                    "title": "ECE 2560",
+                    "prereqs": [
+                        "ECE_2060",
+                        "CSE_1222"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Year 2 - Spring",
+            "courses": [
+                {
+                    "id": "ECE_2050",
+                    "title": "ECE 2050",
+                    "prereqs": [
+                        "ECE_2060"
+                    ]
+                },
+                {
+                    "id": "ECE_3020",
+                    "title": "ECE 3020",
+                    "prereqs": [
+                        "ECE_2020",
+                        "ENGR_1182"
+                    ]
+                },
+                {
+                    "id": "MATH_2568",
+                    "title": "MATH 2568",
+                    "prereqs": [
+                        "MATH 1172"
+                    ]
+                },
+                {
+                    "id": "ECE_3561`",
+                    "title": "ECE 3561",
+                    "prereqs": [
+                        "ECE_2060",
+                        "ECE_3020"
+                    ]
+                },
+                {
+                    "id": "GE_FOUNDATION_1",
+                    "title": "GE-Foundation 2",
+                    "prereqs": []
+                }
+            ]
+        },
+        {
+            "name": "Year 3 - Autumn",
+            "courses": [
+                {
+                    "id": "MATH_2415",
+                    "title": "MATH 2415",
+                    "prereqs": [
+                        "MATh_1172",
+                        "MATH_2568"
+                    ]
+                },
+                {
+                    "id": "ECE_3027",
+                    "title": "ECE 3027",
+                    "prereqs": [
+                        "ECE_3020"
+                    ]
+                },
+                {
+                    "id": "ISE_2040",
+                    "title": "ISE 2040",
+                    "prereqs": []
+                },
+                {
+                    "id": "GE_FOUNDATION_2",
+                    "title": "GE-Foundation 2",
+                    "prereqs": []
+                },
+                {
+                    "id": "GE_THEME_1",
+                    "title": "GE-Theme 1",
+                    "prereqs": []
+                },
+                {
+                    "id": "ENGR_ELECTIVE_1",
+                    "title": "ENGR-Elective 1",
+                    "prereqs": []
+                }
+            ]
+        },{
+            "name": "Year 3 - Spring",
+            "courses": [
+                {
+                    "id": "STAT_3470",
+                    "title": "STAT 3470",
+                    "prereqs": [
+                        "MATH 1172"
+                    ]
+                },
+                {
+                    "id": "ECE_3567",
+                    "title": "ECE 3567",
+                    "prereqs": [
+                        "ECE_2560"
+                    ]
+                },
+                {
+                    "id": "ECE_5362",
+                    "title": "ECE 5362",
+                    "prereqs": [
+                        "ECE_2560",
+                        "ECE_3561"
+                    ]
+                },
+                {
+                    "id": "GE_THEME_2",
+                    "title": "GE-Theme 2",
+                    "prereqs": []
+                },
+                {
+                    "id": "ENGR_ELECTIVE_2",
+                    "title": "ENGR-Elective 2",
+                    "prereqs": []
+                },
+                {
+                    "id": "ENGR_ELECTIVE_3",
+                    "title": "ENGR-Elective 3",
+                    "prereqs": []
+                }
+            ]
+        },
+        {
+            "name": "Year 4 - Autumn",
+            "courses": [
+                {
+                    "id": "ECE_3906",
+                    "title": "ECE 3906",
+                    "prereqs": [
+                        "ECE_2560",
+                        "ECE_3020",
+                        "ECE 3027"
+                    ]
+                },
+                {
+                    "id": "GE_FOUNDATION_3",
+                    "title": "GE-Foundation 3",
+                    "prereqs": []
+                },
+                {
+                    "id": "ENGR_ELECTIVE_4",
+                    "title": "ENGR-Elective 4",
+                    "prereqs": []
+                },
+                {
+                    "id": "ENGR_ELECTIVE_5",
+                    "title": "ENGR-Elective 5",
+                    "prereqs": []
+                },
+                {
+                    "id": "ENGR_ELECTIVE_6",
+                    "title": "ENGR-Elective 6",
+                    "prereqs": []
+                }
+            ]
+        },
+        {
+            "name": "Year 4 - Spring",
+            "courses": [
+                {
+                    "id": "ECE_4905",
+                    "title": "ECE 4905",
+                    "prereqs": [
+                        "ECE_3906"
+                    ]
+                },
+                {
+                    "id": "ENGR_ELECTIVE_7",
+                    "title": "ENGR-Elective 7",
+                    "prereqs": []
+                },
+                {
+                    "id": "ENGR_ELECTIVE_8",
+                    "title": "ENGR-Elective 8",
+                    "prereqs": []
+                },
+                {
+                    "id": "ENGR_ELECTIVE_9",
+                    "title": "ENGR-Elective 9",
+                    "prereqs": []
+                },
+                {
+                    "id": "GE_FOUNDATION_4",
+                    "title": "GE-Foundation 4",
+                    "prereqs": []
+                },
+                {
+                    "id": "GE_FOUNDATION_5",
+                    "title": "GE-Foundation 5",
+                    "prereqs": []
+                }
+            ]
+        }
+    ]
+}
